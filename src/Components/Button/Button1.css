@@ -1,0 +1,26 @@
+.btn_series {
+    padding: 6px 16px 6px 16px;
+    /* border: 2px solid rgb(16, 13, 219); */
+    margin-top: 144px;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+
+
+}
+
+.bbb{
+    margin-top: 90px;
+    padding: 6px 16px 6px 16px;
+    display: flex;
+    
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    /* justify-content: space-between;
+     */
+     gap: 21px;
+   
+    /* border-radius: 8px; */
+
+}

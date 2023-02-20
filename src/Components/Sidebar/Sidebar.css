@@ -1,0 +1,25 @@
+.sidebar{
+    display: flex;
+    /* flex-direction: column; */
+    padding:1.5vmax 1vmax;
+    margin-bottom: -0px;
+}
+.sidebar a{
+    text-decoration: none;
+    padding:0 60px 70px;
+    color: var(--clr-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        padding:1vmax 1vmax;
+        /* position: fixed; */
+        margin-bottom: -30px;
+    }
+    .sidebar a{
+        text-decoration: none;
+        padding:0 10px 10px;
+        color: var(--clr-primary);
+    }
+    
+    }

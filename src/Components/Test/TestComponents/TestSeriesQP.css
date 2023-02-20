@@ -1,0 +1,271 @@
+.qp_container{
+    display: flex;
+
+justify-content: space-between;
+}
+
+.syllabus{
+    color: green;
+    font-weight: bold;
+}
+.left_container{
+    display: flex;
+    gap: 13px;
+    width: 50%;
+    flex-direction: column;
+}
+.img{
+    font-size: 28px;
+    border-radius: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+
+.enroll{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+
+}
+.title_{
+   
+    width:75%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    word-wrap: break-word;
+}
+
+
+.Appp{
+    /* margin-top: 300px; */
+    margin: 100px;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* border: 2px solid red; */
+ }
+
+ .btt{
+background-color:#6949c6;
+    margin-right: 20px;
+    padding-left: 70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 70px;
+ }
+
+
+
+.about_container{
+    display: flex;
+    gap: 43px;
+    flex-direction: column;
+}
+
+.navv{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 33px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #adaaaa;
+}
+.je{
+    padding: 20px;
+    border: 1px solid rgb(194, 187, 187);
+    border-radius: 5px;
+}
+
+.right{
+    padding: 5px;
+}
+.left{
+
+    padding: 5px;
+    width:60px;
+}
+.je{
+    /* gap: 12px; */
+    display: flex;
+    /* border: 1px solid rgb(223, 216, 216); */
+    /* margin-top: -23px; */
+    /* padding: -616px; */
+    width: 70%;
+}
+.ni{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.about_unacademy{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.schedulee{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.btnn{
+    
+    margin-top: -80px;
+}
+
+.btt:hover{
+    background-color: #5ad6a0;
+    color: white;
+}
+
+.mocktest{
+    display: flex;
+    gap: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Appp{
+     /* padding: 0px; */
+     padding-top: 30px;
+
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+    .title_{
+   
+        width:160%;
+        /* display: flex;
+        flex-wrap: wrap; */
+        word-wrap: break-word;
+    }
+    
+    
+
+    .Appp{
+       margin: 0px;
+    }
+   .right_container{
+    display: none;
+   }
+   .unn{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.btnn{
+    margin: 22px;
+   padding: 10px;
+}
+}
+
+    
+@media only screen and (max-width: 768px) {
+    .Appp{
+     /* padding: 0px; */
+     padding-top: 30px;
+
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+    .title_{
+   
+        width:160%;
+        /* display: flex;
+        flex-wrap: wrap; */
+        word-wrap: break-word;
+    }
+    
+    
+
+    .Appp{
+       margin: 0px;
+    }
+   .right_container{
+    display: none;
+   }
+   .unn{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.btnn{
+    margin: 22px;
+   padding: 10px;
+}
+}
+
+    
+@media only screen and (max-width: 992px) {
+    .Appp{
+     /* padding: 0px; */
+     padding-top: 30px;
+
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+    .title_{
+   
+        width:160%;
+        /* display: flex;
+        flex-wrap: wrap; */
+        word-wrap: break-word;
+    }
+    
+    
+
+    .Appp{
+       margin: 0px;
+    }
+   .right_container{
+    display: none;
+   }
+   .unn{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.btnn{
+    margin: 22px;
+   padding: 10px;
+}
+}
+
+    
+@media only screen and (max-width: 1200px) {
+    .Appp{
+     /* padding: 0px; */
+     padding-top: 30px;
+
+     padding-left: 15px;
+     padding-right: 15px;
+    }
+    .title_{
+   
+        width:160%;
+        /* display: flex;
+        flex-wrap: wrap; */
+        word-wrap: break-word;
+    }
+    
+    
+
+    .Appp{
+       margin: 0px;
+    }
+   .right_container{
+    display: none;
+   }
+   .unn{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.btnn{
+    margin: 22px;
+   padding: 10px;
+}
+}
+
+    

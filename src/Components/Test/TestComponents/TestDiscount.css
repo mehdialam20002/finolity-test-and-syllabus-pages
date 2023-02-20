@@ -1,0 +1,49 @@
+.discount_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    /* margin-top: 40px; */
+    margin-top: -60px;
+    background-color: #5AD6A0;
+    text-align: start;
+    padding: 45px;
+    border-radius: 15px;
+}
+
+
+.subtitles_discount{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.button_discount{
+    border: none;
+    
+    background-color: #6749c6;
+    margin-top: 42px;
+    color: wheat;
+    /* margin-top: 120px; */
+    /* border: 2px solid green; */
+    border-radius: 12px;
+    padding: 6px 16px 6px 16px;
+}
+.button_discount:hover{
+    background-color: #3997da;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .discount_container{
+        display: flex;
+        /* margin-top: -60px; */
+        flex-direction: column;
+    }
+    
+    }

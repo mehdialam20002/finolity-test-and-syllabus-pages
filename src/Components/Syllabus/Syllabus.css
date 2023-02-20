@@ -1,0 +1,75 @@
+
+.container{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    background-color: rgb(247, 247, 255);
+    padding: 2vmax 12.8vmax;
+    min-height: 150vh;
+}
+
+.childContainer{
+    padding: 2rem;
+}
+
+
+.syllabus_container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 42px; */
+    /* width: 100%; */
+    word-wrap: 
+    break-word;
+  
+    margin-top: 20px;
+    /* padding: 15px; */
+}
+
+.all_syllabus{
+    display: flex;
+    gap: 15px;
+    margin-right: 12px;
+    margin-left: 12px;
+    flex-wrap: wrap;
+    
+    /* word-wrap: break-word; */
+
+}
+
+.syy{
+   
+    padding: 12px;
+    /* border: 1px solid red; */
+    /* padding-right: 84px; */
+    /* border-radius: 5px; */
+    border-radius: 8px;
+    border-left: 2px solid rgb(74, 199, 25);
+    background-color: #fff;
+    word-wrap: break-word;
+}
+
+.data{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 522px; */
+    
+    /* padding: 23px; */
+}
+
+.syy:hover{
+    border-left: 2px solid #6749c6;
+    background-color: #5ad6a0;
+    cursor: pointer;
+}
+.App{
+    margin:200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+@media only screen and (max-width: 600px) {
+    .App{
+       margin: 0px;
+    }
+    
+    }

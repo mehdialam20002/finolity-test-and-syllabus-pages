@@ -1,0 +1,40 @@
+
+.container{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    background-color: rgb(247, 247, 255);
+    padding: 2vmax 12.8vmax;
+    min-height: 150vh;
+    /* margin-top: 210px; */
+}
+
+.childContainer{
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .App{
+       margin: 0px;
+    }
+    
+    }
+@media only screen and (max-width: 768px) {
+    .App{
+       margin: 0px;
+    }
+    
+    }
+@media only screen and (max-width: 992px) {
+    .App{
+       margin: 0px;
+    }
+    
+    }
+@media only screen and (max-width: 1200px) {
+    .App{
+       margin: 0px;
+    }
+    
+    }
+
